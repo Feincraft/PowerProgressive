@@ -30,7 +30,7 @@ This of course is obvious if you ever run a Power App in a browser.
 Creating a PWA requires building a web app in a very specific way. 
 It's not complicated but it needs to have some components that Power Apps don't currently offer, like a manifest file and Java Script code to handle special events. 
 
-We can't modify the Power App but we can seemlessly integrate it into an existing PWA using every web developer's worst nightmare: an **IFrame**. 
+We can't modify the Power App but we can seamlessly integrate it into an existing PWA using every web developer's worst nightmare: an **IFrame**. 
 This essentially means that we wrap the app in a PWA shell, which behaves like a native desktop app.
 
 Take a look:
