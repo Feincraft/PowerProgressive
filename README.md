@@ -1,7 +1,7 @@
 # Power Progressive
 Usually, you have two options on how to run Power Apps: You can open them in a browser or in the player.    
 On mobile the situation is a bit better with the Wrap feature, allowing you to package your app and the player in a single native app for iOS or Android.
-On the desktop, we seemingly don't have that option. But in fact, we do 😉     
+On the desktop, we seamingly don't have that option. But in fact, we do 😉     
 
 Before we go into how, let's talk about Progressive Web Apps, also known as **PWAs**.    
 
@@ -14,7 +14,7 @@ Both **Microsoft Store** and **Google Play** accept PWAs to their ecosystems as 
 This is not yet the case with Apple, however you can install PWAs from Safari on your iPhone/iPad.    
 
 And that last point is important: you don't have to publish your PWA on any app store.     
-Just send a link to anyone and they will see a prmopt to install your app right in their browser.    
+Just send a link to anyone and they will see a prompt to install your app right in their browser.    
 
 ![image](https://user-images.githubusercontent.com/32096531/194196168-8c9b1ad0-dfe9-4779-b40d-576128d52d0c.png)
 
@@ -98,7 +98,7 @@ While having the Manifest file open, go to the extension and click the Generate 
 ![Open Generate Icons](https://user-images.githubusercontent.com/32096531/194398517-de4c528f-7fc8-4d89-ba83-bd72dceff531.png)
 
 Select a 512x512 icon from the dialog and click "Generate".    
-The extension will create a set of icons for every size and will automatically populate
+The extension will create a set of icons for every size and will automatically populate the manifest.
 
 ![Generate Icons](https://user-images.githubusercontent.com/32096531/194398638-5457f087-45d5-4217-9c13-e0f33a18eb1c.png)
 
@@ -107,7 +107,7 @@ Now we're done with the Manifest, let's move on to the template.
 ### Configure Template
 
 The template is an HTML file containing the IFrame that will host your Power App.   
-First thing are the icons, make sure to supply your own favicon, this will be the desktop shortcut icon too.    
+First thing is the icons, make sure to supply your own favicon as it will be the desktop shortcut icon too.    
 Apple Touch icons are needed only for iPads and iPhones.
 ```html
 <link rel="apple-touch-icon" href="/icons/180x180-icon.png">
@@ -176,7 +176,7 @@ Now open the terminal in the folder where the app is located and type:
 swa start
 ```
 
-SWA will serve the content of the folder (your app) at the spcified address.    
+SWA will serve the content of the folder (your app) at the specified address.    
 It would be something like http://localhost:4280    
 You can Ctrl+Click directly in the terminal window to open the app.
 
