@@ -153,12 +153,15 @@ Add **&hidenavbar=true** at the end so it looks like the example provided below.
 ```html
 <iframe src="https://apps.powerapps.com/play/e/default-79f8134f-8056-4569-b5de-5bd62a6e0008/a/f79060fa-f84f-4bf9-ad93-25c141038d9e?tenantId=79f8134f-8056-4569-b5de-5bd62a6e0008&source=portal&skipAppMetadata=true&hidenavbar=true" 
 ```
+You can use your own Power App or the one supplied with **Power Progressive**    
+The sample app (Feincraft Logistics) can be found here:     
+https://github.com/Feincraft/PowerProgressive/blob/main/PowerProgressive_1_0_0_1_managed.zip 
 
 That's it! Your Power App is now an installable app.    
 Don't believe me? Let's test it!
 
 ## 4️⃣ Test your app
-You will need to the app to be served by a web server.    
+You will need the app to be served by a web server.    
 It can be in Azure with Static Web Apps, another web hosting or locally.    
 Unless you already have a web development environment set up on your machine, the easiest way to test is with SWA CLI.    
 A simple tool to test web apps locally.   
