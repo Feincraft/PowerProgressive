@@ -1,12 +1,12 @@
 # Power Progressive
-Usually, you have two options on how to run Power Apps: You can opne them in a browser or in the player.    
+Usually, you have two options on how to run Power Apps: You can open them in a browser or in the player.    
 On mobile the situation is a bit better with the Wrap feature, allowing you to package your app and the player in a single native app for iOS or Android.
-On the desktop, we seemingly don't have that option. But in fact, we do.     
+On the desktop, we seemingly don't have that option. But in fact, we do 😉     
 
 Before we go into how, let's talk about Progressive Web Apps, also known as **PWAs**.    
 
 ## 1️⃣ Progressive Web Apps (PWA)
-A relatively recent addition to web standards, PWA is a way to present web apps as if they were native desktop (or mobile apps).     
+A relatively recent addition to web standards, PWA is a way to present web apps as if they were native desktop (or mobile) apps.     
 They can handle files, access hardware, show notifications and generally look and feel native.    
 Spotify, BMW, Starbucks, Microsoft and other companies make either PWA versions of their apps or outright make it the only option.    
 
@@ -202,29 +202,32 @@ Congratulations on deploying your first **Power Progressive** app!
 
 ### Further Reading
 
-Want to know more about SWA CLI?    
+* Want to know more about SWA CLI?    
 https://azure.github.io/static-web-apps-cli/docs/intro
 
-If you got this far I'd assume you already have **npm** installed, but just in case:    
+* Want to publish your app?    
+https://www.pwabuilder.com/
+
+* If you got this far I'd assume you already have **npm** installed, but just in case:    
 https://nodejs.org/en/download/
 
 ## 5️⃣ Roadmap
 There's a few things that will be added in future versions:
 ### Badges
-![image](https://user-images.githubusercontent.com/32096531/194416911-a1bc8d77-5f8c-46f9-b8ba-991fb08daa17.png)
-
 Let users know how many messages, tasks, or orders they have.
 
-### Desktop Notifications 
-![image](https://user-images.githubusercontent.com/32096531/194417015-b8111297-ce53-41a1-bbb8-239499924b65.png)
+![image](https://user-images.githubusercontent.com/32096531/194416911-a1bc8d77-5f8c-46f9-b8ba-991fb08daa17.png)
 
+### Desktop Notifications 
 Notify of in-app events using the native notifications mechanism of your OS.   
 Even notifications with interactive buttons are possible (Yes/No, Ok/Cancel, etc).
 
-### Tasks
-![msedge_2BkLSDfrnU](https://user-images.githubusercontent.com/32096531/194416737-81d3c1fb-aa49-41f8-ba28-1c1a0bb783bd.png)
+![image](https://user-images.githubusercontent.com/32096531/194417015-b8111297-ce53-41a1-bbb8-239499924b65.png)
 
+### Tasks
 Right-click to open the app at a certain screen (deeplinking) or perform an action.    
+
+![msedge_2BkLSDfrnU](https://user-images.githubusercontent.com/32096531/194416737-81d3c1fb-aa49-41f8-ba28-1c1a0bb783bd.png)
 
 ## 6️⃣ Feedback
 Tag me in posts with your feedback, follow for updates.    
